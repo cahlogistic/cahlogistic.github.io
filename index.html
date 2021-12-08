@@ -8,7 +8,7 @@ contact at highhay dot com
 <html class="no-js smooth-scroll" lang="en">
 
 
-<!-- Mirrored from demo.highhay.com/simpleux-2/home-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Dec 2021 17:18:54 GMT -->
+<!-- Mirrored from demo.highhay.com/simpleux-2/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Dec 2021 17:18:52 GMT -->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
@@ -57,6 +57,7 @@ contact at highhay dot com
   <link rel="stylesheet" href="css/main.css">
 
   <!-- add alt layout here -->
+  <link rel="stylesheet" href="css/style-2.css">
 
   <script src="js/vendor/modernizr-2.7.1.min.html"></script>
 </head>
@@ -78,7 +79,7 @@ contact at highhay dot com
     <nav class="container-fluid px-0">
 
       <!-- Logo -->
-      <a class="navbar-brand" href="demo.html">
+      <!--<a class="navbar-brand" href="demo.html">
         <span class="logo">
           <img class="light-logo" src="img/logo.svg" alt="Simpleux Template">
           <img class="dark-logo" src="img/logo_dark.svg" alt="Simpleux Template">
@@ -87,7 +88,7 @@ contact at highhay dot com
           <span class="line strong">Arnaud Smith</span>
           <span class="line sub">Portfolio Page</span>
         </span>
-      </a>
+      </a>-->
 
       <!-- Menu button -->
       <button class="navbar-toggler order-lg-2 ms-5 " type="button" data-bs-toggle="collapse"
@@ -111,33 +112,13 @@ contact at highhay dot com
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item" data-section-anchor="projects">
-                <a class="nav-link" href="#projects">Works</a>
+                <a class="nav-link" href="#services">Servizi</a>
               </li>
               <li class="nav-item" data-section-anchor="contact">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item" data-section-anchor="pages">
-                <a class="nav-link" href="demo.html">All pages</a>
+                <a class="nav-link" href="#plans">Offerte</a>
               </li>
             </ul>
 
-            <!-- Fullscreen menu on large devices -->
-            <div class="nav-fullscreen-lg">
-              <ul class="navbar-nav nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="demo.html#home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="demo.html#gallery">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="demo.html#item">Item</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="demo.html">Demo</a>
-                </li>
-              </ul>
-            </div>
           </div>
 
           <!-- Nav footer of small devices -->
@@ -179,12 +160,14 @@ contact at highhay dot com
   <main class="page-main sections-scroll scroll-anim" id="mainpage">
 
     <!-- Begin of hero section -->
-    <section id="home" class="section hero-d content-white fullscreen-h">
+    <section id="home" class="section hero-d   content-white fullscreen-h align-items-end align-items-md-center">
 
       <div class="section-cover bg-black overflow-hidden">
-        <div class="img-box">
-          <img class="fit opacity-6 rellax rounded-md" data-rellax-speed="-1.5" src="img/items/img-sample12.jpg"
-            alt="person">
+        <img class="fit opacity-6 rellax" data-rellax-speed="-4" src="img/home-blur.gif" alt="person">
+      </div>
+      <div class="section-title">
+        <div class="rellax" data-rellax-speed="-1.5">
+          <h2 class="text text-lg">Ca.hl</h2>
         </div>
       </div>
       <!-- Begin of section body -->
@@ -192,20 +175,27 @@ contact at highhay dot com
         <!-- content -->
         <div class="hero-content section-content container content-width anim">
           <div class="row rellax" data-rellax-speed="0">
-            <div class="content-col col-12 text-center">
+            <div class="content-col col-12 col-md-8 col-lg-8 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h1 class="display-title-2 hero-title anim-1" data-anim-visible="by-letter" data-anim-start="0.0"
+                <h1 class="display-title-1 hero-title anim-1" data-anim-visible="by-letter" data-anim-start="0.0"
                   data-anim-letter-delay="0.02" data-anim-line-delay="0.2">
-                  Startup <span class="text-muted-1">agency</span></h1>
+                  Ca.hl
+                  <br>Your nurse
+                </h1>
+                <p class="anim-2 hero-desc" data-anim-visible="by-letter" data-anim-start="0.2"
+                  data-anim-letter-delay="0.01" data-anim-line-delay="0.2">
+                  A simple layout design made by designer and coders. Build for any
+                  projects, and for creative people.
+                </p>
               </div>
 
               <!-- Action button -->
-              <!-- <div class="hero-btns btns-action anim-3">
-                        <a class="btn btn-outline btn-white rounded-pill btn-lg" href="#about">
-                            <span class="text">Learn more</span>
-                        </a>
-                    </div> -->
+              <div class="hero-btns btns-action anim-3">
+                <a class="btn btn-outline btn-white rounded-pill" href="#about">
+                  <span class="text">Learn more</span>
+                </a>
+              </div>
             </div>
 
           </div>
@@ -213,33 +203,20 @@ contact at highhay dot com
       </div>
       <!-- End of section body -->
 
+      <!-- Arrows scroll down/up -->
       <footer class="hero-footer">
-        <div class="section-footer-center section-footer-md-left footer-scrolldown">
-          <a class="btn-scrolldown-b" href="#about">
+        <div class="section-footer-right section-footer-md-left footer-scrolldown">
+          <a class="btn-scrolldown-a" href="#about">
+            <span class="text-before-vertical">
+              <span class="char">S</span>
+              <span class="char">C</span>
+              <span class="char">R</span>
+              <span class="char">O</span>
+              <span class="char">L</span>
+              <span class="char">L</span>
+            </span>
             <span class="icon icon-scrolldown"></span>
-            <span class="text">Scroll to explore</span>
           </a>
-        </div>
-        <div class="section-footer-right d-none d-lg-block">
-          <nav class="nav-social nav-social-b">
-            <ul>
-              <li class="nav-item">
-                <a class="nav-link btn" href="#">
-                  Instagram
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn" href="#">
-                  Twitter
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn" href="#">
-                  Dribble
-                </a>
-              </li>
-            </ul>
-          </nav>
         </div>
       </footer>
     </section>
@@ -260,454 +237,14 @@ contact at highhay dot com
               <!-- title and description -->
               <div class="title-desc xl-text-size">
                 <p class="anim-1 inline-text" data-anim-visible="by-letter">
-                  We are a digital agency, <strong>focused</strong> in making good and useful product for clients and
-                  corporations. Our main <span class="fw-bold">mission</span> or a description about us is placed here.
-                </p>
+                  Ca.h nasce da Alessandro Casarola, con lo scopo di facilitare a chiunque l'accesso alla sanità.
+Fa da tramite tra lo specialista sanitario e il paziente, semplificando la coprensione e l'accesso ai servizi.
+La nostra <span class="fw-bold">mission</span> è quella di offrire a chiunque un servizio di cura personalizzato.
+                </br><span class="fw-bold">E' lo specialista ad andare dal paziente, e non più viceversa.        </span>        
+</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- End of section body -->
-
-    </section>
-    <!-- End of about section -->
-    <!-- Begin of products section -->
-    <section id="products" class="section section-a  with-overflow">
-
-      <div class="section-title title-anim sticky-title-off">
-        <h2 class="text rellax" data-rellax-speed="5" data-rellax-percentage="0.5">products</h2>
-      </div>
-      <!-- Begin of section body -->
-      <div class="section-body">
-        <!-- content -->
-        <div class="section-content container content-width-xxl anim">
-
-          <!-- item-list -->
-          <div class="part-wrapper">
-            <div class="item-list row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 anim-list">
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-2.jpg" alt="team member">
-                  </div>
-
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Luminaire</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Lighting</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$379</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-4.jpg" alt="team member">
-                  </div>
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Desin structor</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Book</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$29</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-6.jpg" alt="team member">
-                  </div>
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Running Chauss</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Shoes</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$139</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-8.jpg" alt="team member">
-                  </div>
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body item-body-glass rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Candy Pink</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Foods</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$19</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-7.jpg" alt="team member">
-                  </div>
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body item-body-glass rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Tee Shirt</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Clothing</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$29</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-9.jpg" alt="team member">
-                  </div>
-                  <div class="item-header">
-                    <div class="row">
-                      <div class="col text-end">
-                        <span class="btn btn-solid-a">
-                          <span class="icon">
-                            <i class="ion-md-arrow-forward"></i>
-                          </span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body item-body-glass rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Thecube</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Painting</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <p class="price">$19</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-3.jpg" alt="team member">
-                  </div>
-                  <div class="item-header mask-gradient rounded-md">
-                    <div class="row">
-                      <div class="col text-start">
-                        <p class="price h4">$29</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Neutraco oil</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Natural and pure organic</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <span class="btn btn-icon-a">
-                            <span class="icon">
-                              <i class="ion-md-arrow-forward"></i>
-                            </span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-1.jpg" alt="team member">
-                  </div>
-                  <div class="item-header mask-gradient rounded-md">
-                    <div class="row">
-                      <div class="col text-start">
-                        <p class="price h4">$799</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Orange chair</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Home decoration</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <span class="btn btn-icon-a">
-                            <span class="icon">
-                              <i class="ion-md-arrow-forward"></i>
-                            </span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-              <div class="col">
-                <!-- card -->
-                <a class="item item-image-f" href="item.html#or_an_url" data-anim-visible='fade'>
-                  <div class="item-img rounded-md">
-                    <img class="fit" src="img/items/img-square-5.jpg" alt="team member">
-                  </div>
-                  <div class="item-header mask-gradient rounded-md">
-                    <div class="row">
-                      <div class="col text-start">
-                        <p class="price h4">$59</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item-body rounded-md">
-                    <div class="desc">
-                      <div class="row align-items-end">
-                        <div class="col">
-                          <h4 class="title">Summer dress</h4>
-                          <p class="category mb-0">
-                            <span class="text-muted-2">Clothing</span>
-                          </p>
-                        </div>
-                        <div class="col-auto">
-                          <span class="btn btn-icon-a">
-                            <span class="icon">
-                              <i class="ion-md-arrow-forward"></i>
-                            </span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- end of card -->
-              </div>
-
-            </div>
-          </div>
-          <!-- end of item-list -->
-        </div>
-      </div>
-      <!-- End of section body -->
-
-    </section>
-    <!-- End of products section -->
-    <!-- Begin of about section -->
-    <section id="services" class="section section-a ">
-      <div class="section-title title-anim  overflow-hidden">
-        <h2 class="text text-lg nowrap text-stroke rellax" data-rellax-horizontal data-rellax-speed="-4"
-          data-rellax-percentage="0.5">
-          Expertises
-        </h2>
-      </div>
-      <!-- Begin of section body -->
-      <div class="section-body">
-        <!-- content -->
-        <div class="section-content container content-width anim">
-
-          <div class="row mb-5">
-            <div class="col-12 col-lg-6 text-left">
-              <!-- title and description -->
-              <div class="title-desc">
-                <h2 class="display-3 anim-1 mb-4">Services</h2>
-                <p class="anim-2">We did so many projects since the beginning of our path. Here are some of the
-                  remarkable ones.</p>
-              </div>
-            </div>
-            <div class="col-lg-6 text-right">
-              <a class="btn btn-outline-b btn-white text-spaced text-uppercase" href="#about">
-                <span class="text">Contact</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- item list -->
-          <div class="item-list row row-cols-1 row-cols-md-2 g-5">
-            <div class="col">
-              <!-- an item -->
-              <a class="item item-feature-c" href="item.html#or_an_url">
-                <div class="item-img anim-hover">
-                  <img class="fit" src="img/items/img-sample4.jpg" alt="team member">
-                </div>
-                <div class="icon">
-                  <span class="icon-text">01</span>
-                </div>
-                <div class="item-body">
-                  <h4>Product Design</h4>
-                  <span class="btn btn-overline-a">
-                    Learn more
-                  </span>
-                </div>
-              </a>
-            </div>
-
-            <!-- an item -->
-            <div class="col">
-              <!-- an item -->
-              <a class="item item-feature-c" href="item.html#or_an_url">
-                <div class="item-img anim-hover">
-                  <img class="fit" src="img/items/img-sample5.jpg" alt="team member">
-                </div>
-                <div class="icon">
-                  <span class="icon-text">02</span>
-                </div>
-                <div class="item-body">
-                  <h4>Ads &amp; Marketing</h4>
-                  <span class="btn btn-overline-a">
-                    Learn more
-                  </span>
-                </div>
-              </a>
-            </div>
-
-            <!-- an item -->
-            <div class="col">
-              <!-- an item -->
-              <a class="item item-feature-c" href="item.html#or_an_url">
-                <div class="item-img anim-hover">
-                  <img class="fit" src="img/items/img-sample6.jpg" alt="team member">
-                </div>
-                <div class="icon">
-                  <span class="icon-text">03</span>
-                </div>
-                <div class="item-body">
-                  <h4>Creative Industry</h4>
-                  <span class="btn btn-overline-a">
-                    Learn more
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <!-- end of service list -->
         </div>
       </div>
       <!-- End of section body -->
@@ -715,81 +252,234 @@ contact at highhay dot com
     </section>
     <!-- End of about section -->
     <!-- Begin of projects section -->
-    <section id="gallery" class="section section-a content-white">
-      <div class="section-title">
-        <h2 class="text">projects</h2>
-      </div>
+    <section id="services" class="section section-a child-sticky fullscreen-h-lg">
       <!-- Begin of section body -->
-      <div class="section-body py-0">
+      <div class="section-body py-5">
         <!-- content -->
 
-        <div class="section-content content-full px-0 anim">
+        <div class="section-content container content-width anim d-lg-none">
+          <div class="row mb-4">
+            <div class="col-12 col-lg-8 text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <h2 class="display-3 anim-1 mb-0">Servizi</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-content content-full px-0 anim scroll-container">
 
           <!-- Slider main container -->
-          <div class="swiper-container slider-gallery-a animated">
-            <!-- Swiper wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide slide-item-gallery-a">
-                <div class="item-wrapper">
-                  <div class="item-image">
-                    <img src="img/items/img-sample11.jpg" alt="image">
-                  </div>
-                  <div class="item-content content-width ">
-                    <h4 class="category">Marketing</h4>
-                    <h3 class="title">Innovis <br>Projectum</h3>
-                    <div class="btns-group">
-                      <a class="btn btn-overline-a" href="item.html#or_an_url">
-                        Learn more
-                      </a>
+          <div class="scroll-simple-a ">
+            <!-- scroll wrapper -->
+            <div class="scroll-wrapper">
+              <div class="scroll-slides">
+                <!-- Slides -->
+                <div class="scroll-slide slide-item-b">
+                  <div class="item-wrapper">
+                    <div class="item-image rounded-md scale-1">
+                      <img src="img/items/img-sample2.jpg" alt="image">
+                    </div>
+                    <div class="item-content">
+                      <h5 class="subtitle speed-1">Projects</h5>
+                      <h3 class="title speed-3">Alfa Dizeing</h3>
+                      <h4 class="category speed-2">Branding, Website</h4>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide slide-item-gallery-a">
-                <div class="item-wrapper">
-                  <div class="item-image">
-                    <img src="img/items/img-sample12.jpg" alt="image">
-                  </div>
-                  <div class="item-content content-width ">
-                    <h4 class="category">Real Estate</h4>
-                    <h3 class="title">Glassia <br>Metalix</h3>
-                    <div class="btns-group">
-                      <a class="btn btn-overline-a" href="item.html#or_an_url">
-                        Learn more
-                      </a>
+                <div class="scroll-slide slide-item-b">
+                  <div class="item-wrapper">
+                    <div class="item-image rounded-md scale-1">
+                      <img src="img/items/img-sample3.jpg" alt="image">
+                    </div>
+                    <div class="item-content">
+                      <h5 class="subtitle speed-1">Projects</h5>
+                      <h3 class="title speed-3">Bureauss</h3>
+                      <h4 class="category speed-2">Branding, Website</h4>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="swiper-slide slide-item-gallery-a">
-                <div class="item-wrapper">
-                  <div class="item-image">
-                    <img src="img/items/img-sample13.jpg" alt="image">
+                <div class="scroll-slide slide-item-b">
+                  <div class="item-wrapper">
+                    <div class="item-image rounded-md scale-1">
+                      <img src="img/items/img-sample5.jpg" alt="image">
+                    </div>
+                    <div class="item-content">
+                      <h5 class="subtitle speed-1">Projects</h5>
+                      <h3 class="title speed-3">Paintus</h3>
+                      <h4 class="category speed-2">Branding, Website</h4>
+                    </div>
                   </div>
-                  <div class="item-content content-width ">
-                    <h4 class="category">Branding</h4>
-                    <h3 class="title">Teacoffi <br>Atlantis</h3>
-                    <div class="btns-group">
-                      <a class="btn btn-overline-a" href="item.html#or_an_url">
-                        Learn more
-                      </a>
+                </div>
+                <div class="scroll-slide slide-item-b">
+                  <div class="item-wrapper">
+                    <div class="item-image rounded-md scale-1">
+                      <img src="img/items/img-sample1.jpg" alt="image">
+                    </div>
+                    <div class="item-content">
+                      <h5 class="subtitle speed-1">Projects</h5>
+                      <h3 class="title speed-3">Dekoris</h3>
+                      <h4 class="category speed-2">Branding, Website</h4>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- slider pagination -->
-            <div class="swiper-pagination"></div>
+            <!-- controls -->
+            <div class="scoll-btns"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End of section body -->
 
-            <!-- slider navigation buttons -->
-            <div class="slider-btns">
-              <div class="slider-btn slider-prev swiper-button-prev">
-                <span class="icon ion-md-arrow-back"></span>
+      <!-- End of projects section -->
+    </section>
+
+    <!-- Begin of team section -->
+    <section id="team" class="section section-a fullscreen-h-lg">
+
+      <div class="section-title title-anim">
+        <div data-anim-visible='zoom-in'>
+          <h2 class="text">team</h2>
+        </div>
+      </div>
+      <!-- Begin of section body -->
+      <div class="section-body">
+        <!-- content -->
+        <div class="section-content container content-width anim">
+
+          <div class="row">
+            <div class="col col-12 col-lg-12">
+              <!-- item list -->
+              <div class="item-list row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 anim-list">
+
+                <div class="col">
+                  <!-- an item -->
+                  <div class="item item-image-a " data-anim-visible='fade'>
+                    <a class="img  rounded-pill" href="item-2.html#or_user_page">
+                      <img class="fit" src="img/items/img-person4.jpg" alt="team member">
+                    </a>
+                    <div class="item-body mt-4">
+
+                      <a class="page-link" href="item-2.html#or_user_page">
+                        <h4>Peter Laplace</h4>
+                        <p>Designer / CEO</p>
+                      </a>
+                      <nav class="nav-social nav-social-a">
+                        <ul>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <!-- an item -->
+                  <div class="item item-image-a " data-anim-visible='fade'>
+                    <a class="img  rounded-pill" href="item-2.html#or_user_page">
+                      <img class="fit" src="img/items/img-person2.jpg" alt="team member">
+                    </a>
+                    <div class="item-body mt-4">
+
+                      <a class="page-link" href="item-2.html#or_user_page">
+                        <h4>Jane Geraldine</h4>
+                        <p>Journalist / Author</p>
+                      </a>
+                      <nav class="nav-social nav-social-a">
+                        <ul>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <!-- an item -->
+                  <div class="item item-image-a " data-anim-visible='fade'>
+                    <a class="img  rounded-pill" href="item-2.html#or_user_page">
+                      <img class="fit" src="img/items/img-person3.jpg" alt="team member">
+                    </a>
+                    <div class="item-body mt-4">
+
+                      <a class="page-link" href="item-2.html#or_user_page">
+                        <h4>Miley Timson</h4>
+                        <p>Analyst / Finance</p>
+                      </a>
+                      <nav class="nav-social nav-social-a">
+                        <ul>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-instagram"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-twitter"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link btn" href="#">
+                              <span class="icon">
+                                <i class="ion ion-logo-linkedin"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+
               </div>
-              <div class="slider-btn slider-next swiper-button-next">
-                <span class="icon ion-md-arrow-forward"></span>
-              </div>
+              <!-- end of service list -->
+
             </div>
           </div>
         </div>
@@ -797,8 +487,192 @@ contact at highhay dot com
       <!-- End of section body -->
 
     </section>
-    <!-- End of projects section -->
+    <!-- End of team section -->
+   <!-- Begin of pricing section -->
+   <section class="section section-a fp-auto-height-responsive " data-section="pricing">
+    <div class="section-title title-anim">
+      <div data-anim-visible='zoom-in'>
+        <h2 class="text">pricing</h2>
+      </div>
+    </div>
+    <!-- Begin of section body -->
+    <div class="section-body">
+      <!-- content -->
+      <div class="section-content container content-width anim">
+        <div class="row">
+          <div class="col-12 col-lg-8 text-left">
+            <!-- title and description -->
+            <div class="title-desc" data-anim-visible='fade'>
+              <h2 class="display-3 anim-1 mb-4">Pricing &amp; Plan</h2>
+              <p class="anim-2">These are our flexible pricing plan. Choose the one that fits your need. You
+                can always change plan later.</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="row mt-4">
+          <div class="col col-12 col-lg-12">
+            <!-- item list -->
+            <div class="item-list row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 anim-list">
+              <div class="col">
+                <!-- card -->
+                <div class="item item-pricing-a rounded-md" data-anim-visible='fade'>
+                  <div class="item-header text-center">
+                    <h4 class="title">
+                      Basic
+                    </h4>
+                  </div>
+                  <div class="item-body">
+                    <div class="price">
+                      <p class="amount">$0</p>
+                    </div>
+                    <ul class="list-feature fs-medium">
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">2 Team members</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">2 Projects</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Free Support</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Always free</span>
+                      </li>
+                      <li class="text-muted-1">
+                        <i class="icon icon-sm ion-ios-close-circle me-2"></i>
+                        <span class="text">Future Updates</span>
+                      </li>
+                      <li class="text-muted-1">
+                        <i class="icon icon-sm ion-ios-close-circle me-2"></i>
+                        <span class="text">Advanced Feature</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-solid btn-white btn-full" href="item.html#or_an_url">
+                      <span class="text">Choose Plan</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- end of card -->
+              </div>
+
+              <div class="col">
+                <!-- card -->
+                <div class="card item-pricing-a rounded-md" data-anim-visible='fade'>
+                  <div class="item-header text-center">
+                    <h4 class="title">
+                      Professional
+                    </h4>
+                  </div>
+                  <div class="item-body">
+                    <div class="price">
+                      <p class="amount">$29</p>
+                      <p class="unit">per month</p>
+                    </div>
+                    <ul class="list-feature fs-medium">
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">5 Team members</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">10 Projects</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Free Support</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">15 Days free trial</span>
+                      </li>
+                      <li class="text-muted-1">
+                        <i class="icon icon-sm ion-ios-close-circle me-2"></i>
+                        <span class="text">Future Updates</span>
+                      </li>
+                      <li class="text-muted-1">
+                        <i class="icon icon-sm ion-ios-close-circle me-2"></i>
+                        <span class="text">Advanced Feature</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-solid btn-white btn-full" href="item.html#or_an_url">
+                      <span class="text">Choose Plan</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- end of card -->
+              </div>
+
+              <div class="col">
+                <!-- card -->
+                <div class="card item-pricing-a rounded-md featured" data-anim-visible='fade'>
+                  <div class="item-header text-center">
+                    <h4 class="title">
+                      Ultimate
+                    </h4>
+                  </div>
+                  <div class="item-body">
+                    <div class="price">
+                      <p class="amount">$99</p>
+                      <p class="unit">lifetime</p>
+                    </div>
+                    <ul class="list-feature fs-medium">
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">10 Team members</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Unlimited projects</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Free Support</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">15 Days free trial</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Future Updates</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Advanced Feature</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-solid btn-primary btn-full" href="item.html#or_an_url">
+                      <span class="text">Choose Plan</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- end of card -->
+              </div>
+
+            </div>
+            <!-- end of service list -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of section body -->
+
+  </section>
+  <!-- End of pricing section -->
+  
+    
     <!-- Begin of home contact -->
     <section id="contact" class="section section-a fullscreen-h-lg">
       <div class="section-title title-anim">
@@ -885,6 +759,39 @@ contact at highhay dot com
   </main>
   <!-- END OF page main content -->
 
+  <!-- BEGIN OF page footer -->
+  <footer id="site-footer" class="footer-page change-on-section-color">
+    <!-- Right content -->
+    <div class="footer-right">
+      <nav class="nav-social nav-social-a">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#">
+              <span class="icon">
+                <i class="ion ion-logo-instagram"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#">
+              <span class="icon">
+                <i class="ion ion-logo-twitter"></i>
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn" href="#">
+              <span class="icon">
+                <i class="ion ion-logo-linkedin"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- END OF site footer -->
+
   <!-- scripts -->
   <!-- All Javascript plugins goes here -->
   <script src="js/bootstrap.min.js"></script>
@@ -907,5 +814,5 @@ contact at highhay dot com
 </body>
 
 
-<!-- Mirrored from demo.highhay.com/simpleux-2/home-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Dec 2021 17:19:03 GMT -->
+<!-- Mirrored from demo.highhay.com/simpleux-2/home-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Dec 2021 17:18:54 GMT -->
 </html>
