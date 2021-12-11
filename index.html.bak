@@ -208,7 +208,7 @@ La nostra <span style="color: #034C81">mission</span> è quella di offrire a chi
             <div class="col-12 col-lg-8 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h2 class="display-3 anim-1 mb-0">Our.<span style="color: #034C81">Services</span></h2>
+                <h2 class="display-3 anim-1 mb-0">I nostri.<span style="color: #034C81">Servizi</span></h2>
               </div>
             </div>
           </div>
@@ -299,7 +299,7 @@ La nostra <span style="color: #034C81">mission</span> è quella di offrire a chi
               <div class="col-12 col-lg-8 text-left">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-3 anim-1 mb-0">Our.<span style="color: #034C81">Team</span></h2>
+                  <h2 class="display-3 anim-1 mb-0">Il nostro.<span style="color: #034C81">Team</span></h2>
                 </div>
               </div>
             </div>
@@ -448,7 +448,7 @@ La nostra <span style="color: #034C81">mission</span> è quella di offrire a chi
     <div class="section-title title-anim overflow-hidden">
       <h2 class="text text-stroke text-lg rellax" data-rellax-horizontal data-rellax-speed="-4"
         data-rellax-percentage="0.5">
-        Plans</h2>
+        Piano</h2>
     </div>
     <!-- Begin of section body -->
     <div class="section-body">
@@ -459,7 +459,7 @@ La nostra <span style="color: #034C81">mission</span> è quella di offrire a chi
             <div class="col-12 col-lg-8 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h2 class="display-3 anim-1 mb-0">Our.<span style="color: #034C81">Plans</span></h2>
+                <h2 class="display-3 anim-1 mb-0">I nostri.<span style="color: #034C81">Piani</span></h2>
               </div>
             </div>
           </div>
@@ -474,21 +474,25 @@ La nostra <span style="color: #034C81">mission</span> è quella di offrire a chi
                 <div class="item item-pricing-a rounded-md" data-anim-visible='fade'>
                   <div class="item-header text-center">
                     <p class="inline-text" style="font-size: 40px;">
-                      Free
+                      Basic
                     </p>
                   </div>
                   <div class="item-body">
                     <div class="price">
-                      <p class="amount">€0</p>
+                      <p class="amount">€20</p>
                     </div>
                     <ul class="list-feature fs-medium">
                       <li>
                         <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
-                        <span class="text">1 checkup per month by our nurses</span>
+                        <span class="text">Visita infermieristica mensile</span>
                       </li>
                       <li>
                         <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
-                        <span class="text">Availability h24</span>
+                        <span class="text">1 visita medica specialistica all'anno</span>
+                      </li>
+                      <li>
+                        <i class="icon icon-sm ion-ios-checkmark-circle me-2"></i>
+                        <span class="text">Disponibilità h24</span>
                       </li>
                       
                     </ul>
