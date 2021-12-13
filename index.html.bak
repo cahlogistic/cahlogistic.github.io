@@ -221,19 +221,17 @@ contact at highhay dot com
             <div class="scroll-wrapper">
               <div class="scroll-slides">
                 <!-- Slides -->
-                <a href="physical.html" style="text-decoration: none;">
                 <div class="scroll-slide slide-item-b">
                   <div class="item-wrapper">
                     <div class="item-image rounded-md scale-1">
                       <img src="img/items/img-sample2.jpg" alt="image">
                     </div>
                     <div class="item-content">
-                      <h3 class="title speed-3 text-white">Physical health</h3>
+                      <h3 class="title speed-3 text-white">Phisical health</h3>
                       <h4 class="category speed-2 text-white">A team of nurse, supported from our partners, on your service h24 to increase your prevention and decrease your unnecessary visits.</h4>
                     </div>
                   </div>
-                </div></a>
-                <a href="financial.html" style="text-decoration: none;">
+                </div>
                 <div class="scroll-slide slide-item-b">
                   <div class="item-wrapper">
                     <div class="item-image rounded-md scale-1">
@@ -245,21 +243,17 @@ contact at highhay dot com
                     </div>
                   </div>
                 </div>
-              </a>
-                <a href="mental.html" style="text-decoration: none;">
                 <div class="scroll-slide slide-item-b">
                   <div class="item-wrapper">
                     <div class="item-image rounded-md scale-1">
-                      <img  src="img/items/img-sample4.jpg" alt="image">
+                      <img src="img/items/img-sample4.jpg" alt="image">
                     </div>
                     <div class="item-content">
                       <h3 class="title speed-3 text-white">Mental health</h3>
-                      <h4 class="category speed-2 text-white">Lots of time mental health is undervaluated, also because is thought that money and physical health are priorities.</h4>
+                      <h4 class="category speed-2 text-white">Lots of time mental health is undervaluated, also because is thought that money and phisical health are priorities.</h4>
                     </div>
                   </div>
                 </div>
-              </a>
-              <a href="freetime.html" style="text-decoration: none;">
                 <div class="scroll-slide slide-item-b">
                   <div class="item-wrapper">
                     <div class="item-image rounded-md scale-1">
@@ -271,7 +265,6 @@ contact at highhay dot com
                     </div>
                   </div>
                 </div>
-                </a>
               </div>
             </div>
             <!-- controls -->
@@ -301,7 +294,7 @@ contact at highhay dot com
               <div class="col-12 col-lg-8 text-left">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-3 anim-1 mb-0">Our.<span style="color: #034C81">Team</span></div></h2>
+                  <h2 class="display-3 anim-1 mb-0">Our.<span style="color: #034C81">Team</span></h2>
                 </div>
               </div>
             </div>
@@ -482,8 +475,6 @@ contact at highhay dot com
                   <div class="item-body">
                     <div class="price">
                       <p class="amount">€0</p>
-                      <p class="unit">per month</p>
-                     
                     </div>
                     <ul class="list-feature fs-medium">
                       <li>
