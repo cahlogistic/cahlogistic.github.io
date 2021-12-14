@@ -3998,14 +3998,14 @@ a.item-image-f:hover {
       padding-bottom: 0; } }
 
 .section-content.content-width-md {
-  max-width: 48rem; }
+  max-width: 60rem; }
 
 .section-content.content-width-lg, .section-content.content-width {
-  max-width: 60rem; }
+  max-width: 70rem; }
 
 @media screen and (min-width: 1200px) {
   .section-content.content-width-xl, .section-content.content-xl {
-    max-width: 70rem; } }
+    max-width: 80rem; } }
 
 @media screen and (min-width: 992px) {
   .section-content.content-width-xxl, .section-content.content-xxl {
