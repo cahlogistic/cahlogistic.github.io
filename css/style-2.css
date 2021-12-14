@@ -381,4 +381,7 @@ body {
     width: 200px;
     margin-bottom: 10px;
   }
+  .wrapper .content footer button{
+    margin-left: 0px;
+  }
 }
