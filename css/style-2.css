@@ -376,6 +376,7 @@ body {
     margin-right: 20px !important;
     margin-left: 20px !important;
     padding: var(--padding-15);
+    margin-bottom: 50px;
   }
   .wrapper .content footer input {
     width: 200px;
