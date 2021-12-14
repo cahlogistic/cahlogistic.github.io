@@ -310,7 +310,7 @@ body {
   --button-background: #034C81;
   --input-background: #e4eff8;
   --radius-50: 50px;
-  --padding-15: 15px;
+  --padding-15: 10px;
 }
 
 
@@ -358,6 +358,9 @@ body {
   color: #fff;
   border: unset;
   width: 30%;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 150px;
   border-radius: var(--radius-50);
   padding: var(--padding-15);
   margin-left: 10px;
