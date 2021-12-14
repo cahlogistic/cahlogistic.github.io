@@ -2342,7 +2342,7 @@ body.menu-visible .navbar-a.hide-header {
     background: #ffffff;
     color: #034C81; }
     .card-pricing-a.featured .list-feature {
-      color: #1b1919; }
+      color: #034C81; }
       .card-pricing-a.featured .list-feature .icon {
         color: #034C81; }
 
@@ -2868,7 +2868,7 @@ a.item-image-b:hover {
       font-size: 1.25rem;
       color: rgba(255, 255, 255, 0.75); }
   .item-image-c.h-thumb img {
-    height: 18rem; }
+    height: 40rem; }
 
 a.item-image-c {
   color: currentColor;
@@ -3166,7 +3166,7 @@ a.item-image-f:hover {
     background: rgba(75, 75, 75, 0.1);
     color: #034C81; }
     .item-pricing-a.featured .list-feature {
-      color: #1b1919; }
+      color: #034C81; }
       .item-pricing-a.featured .list-feature .icon {
         color: #034C81; }
 
