@@ -355,7 +355,7 @@ body {
   background-color: var(--button-background);
   color: #fff;
   border: unset;
-  width: 200px;
+  width: 30%;
   border-radius: var(--radius-50);
   padding: var(--padding-15);
   margin-left: 10px;
